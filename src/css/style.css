@@ -1,0 +1,162 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.col {
+  float: right;
+}
+
+
+.row:after {
+  display: table;
+
+}
+
+.flex-row{
+  display: flex;
+flex-wrap: nowrap;
+}
+
+.border-a {
+  border: 1px solid white !important;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-bold{
+  font-weight: 700 !important;
+}
+
+.text-semiBold{
+  font-weight: 500 !important;
+}
+
+.text-h1{
+  font-size: 2em;
+}
+
+.text-h2{
+  font-size: 1.5em;
+}
+
+.text-h3{
+  font-size: 1.17em;
+}
+
+.text-h4{
+  font-size: 1em;
+}
+
+.text-caption{
+  font-size: .83em;
+}
+
+.text-sm{
+  font-size: .43em;
+}
+
+.align-center{
+  display: table;
+  margin:0 auto
+}
+
+.ml-xl{
+  margin-left:24px !important
+}
+
+.ml-2xl{
+  margin-left:48px !important
+}
+
+
+.mt-xl{
+  margin-top:24px !important
+}
+
+.mt-2xl{
+  margin-top:48px !important
+}
+
+.mt-md{
+  margin-top:12px !important
+}
+
+.mb-xl{
+  margin-bottom:24px
+}
+
+.mb-2xl{
+  margin-bottom:48px !important
+}
+
+.mb-md{
+  margin-bottom:12px !important
+}
+
+.py-xl{
+  padding:24px 0px !important;
+}
+
+.py-md{
+  padding:12px 0px !important;
+}
+
+.px-xl{
+  padding:0px 24px !important;
+}
+
+.px-md{
+  padding:0px 12px !important;
+}
+
+.pa-md{
+  padding: 12px !important;
+}
+
+.pa-sm{
+  padding: 8px !important;
+}
+
+.link{
+  cursor: pointer !important;
+  color: green !important;
+}
+
+
+.bg-yellow{
+  background-color: yellow;
+}
+
+.bg-blue{
+  background-color: blue;
+}
+
+.bg-red{
+  background-color: red;
+}
+
+.text-blue{
+  color: blue;
+}
+
+.text-red{
+  color: red;
+}
+
+.text-yellow{
+  color: yellow;
+}
